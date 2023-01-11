@@ -1,0 +1,32 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+.buttonsContainer{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.cardContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 650px;
+    height: 300px;
+    margin-top: 80px;
+}
+.cardContainer .card:hover{
+    transition: 500ms;
+    transform: scale(1.3);
+    filter:drop-shadow(0 0 100px  black);
+    z-index: 1000;
+    
+}
+
+
